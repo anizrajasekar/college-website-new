@@ -1,0 +1,610 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(192, 229, 245);
+}
+
+header{
+    height: 12vh;
+    background :linear-gradient(rgb(237, 245, 244),rgb(246, 236, 236));
+    display: inline-flex;
+    width: 100%;
+   
+}
+
+.logo img{
+    height: 70%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.name{
+    margin-top: 1.8%;
+    margin-left: 32%;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+}
+
+
+ .home img{
+    width: 100%;
+    height: 100vh;
+}
+
+ .home h2{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    font-size: 300%;
+    text-align: center;
+    color: white;
+}
+
+ .navlinks{
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(235, 222, 225);
+    margin-top: -5px;
+    
+}
+
+ .navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.navlinks ul li {
+    margin-top: 3%;
+    list-style: none;
+}
+
+
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-us{
+    display: flex;
+    
+}
+
+.about-us img{
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 4%;
+    width: 45%;
+    height: 90vh;
+    margin-top: 4%;
+}
+
+.content1{
+   text-align: center;
+   margin-top: 25vh;
+   margin-left: 12%;
+   width: 30%;
+  
+}
+
+.content1 h2{
+    color: rgb(7, 61, 7);
+}
+
+.content1 p{
+    margin-top: 5%;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bt1{
+    background: #a881af;
+    margin-top: 7%;
+    padding: 2% 5% 2%;
+}
+
+.bt1:hover{
+    background-color: violet;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
+.gallery{
+    overflow: hidden;
+    margin-top: 5%;
+   
+}
+
+.gallery figure{
+    position: relative;
+    width: 500%;
+    left: 0;
+    animation: 15s slider infinite;
+}
+
+.gallery  img{
+    width: 20%;
+    float: left;
+    height: 80vh;
+    
+}
+
+@keyframes slider{
+    0% {
+        left: 0%;
+    }
+
+    33%{
+        left: 0%;
+    }
+
+    40%{
+        left: -100%;
+    }
+
+    73%{
+        left: -100%;
+    }
+
+    79%{
+        left: -200%;
+    }
+
+    100%{
+        left: -200%;
+    }
+
+}
+
+
+.headcourse1{
+    text-align: center;
+}
+
+.headcourse1 h2{
+    margin-top: 5%;
+}
+
+.dep1{
+   border: 1px solid black;
+   width: 20%;
+   height: 45vh;
+   background-color: azure;
+   border-radius: 10px;
+   margin-left: 3%;
+}
+
+.dep1 img{
+    width: 90%;
+    height: 25vh;
+    border-radius: 10px;
+    margin-left: 4.9%;
+    margin-top: 5%;
+}
+
+.dep1 h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.bt2{
+   margin-left: 36%;
+   margin-top: 5%;
+   padding: 5px 20px;
+}
+
+.bt2:hover{
+    background-color: aqua;
+    transition: 5s;
+}
+
+.row1{
+    display: flex;
+    margin-left: 6.4%;
+    margin-top: 5%;
+}
+
+.row2{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 6.4%;
+}
+
+
+.headcourse2 p{
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 2%;
+    line-height: 1.5;
+}
+
+.headcourse2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.headcourse2 h2{
+    color: green;
+}
+
+.headcourse2 h3{
+    margin-top: 2%;
+    color: red;
+}
+
+.SCHOLARSHIP{
+   margin-top: 3%;
+   
+}
+
+.scholar1{
+    width: 40%;
+    height: 10vh;
+    background-color: greenyellow;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    padding-top: 1.5%;
+}
+
+.reg{
+    width: 35%;
+    background:linear-gradient(rgb(185, 234, 185),yellow);
+    margin-top: 5%;
+    margin-left: 18%;
+    height: 70vh;
+}
+
+.reg h2{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.textlabel{
+    display: block;
+}
+
+.input {
+    height: 10%;
+    margin: 5% 15% 5%;
+}
+
+.input input{
+   height: 2rem;
+   width: 100%;
+}
+
+.bt3{
+    margin-left: 40%;
+    padding: 2% 5% 2%;
+}
+
+.dis{
+    display: flex;
+}
+
+.posterimg img{
+    margin-left: 35%;
+    margin-top: 26%;
+
+}
+
+.recuirthead{
+   text-align: center;
+   margin-top: 5%;
+}
+
+.companylogo{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.img1{
+   margin-left: 2%;
+   margin-top: 3%;
+}
+
+.img2{
+    margin-left: 3%;
+}
+
+.img3{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.img4{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.img5{
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+
+
+.contact{
+    display: flex;
+    margin-top: 8%;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 160%;
+}
+
+.col-2{
+    margin-left: 11%;
+}
+
+
+
+hr{
+    width: 85%;
+    background-color: black;
+    margin-left: 10%;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(black,rgb(34, 27, 27));
+}
+
+.foot{
+    display: flex;
+    color:  rgb(138, 126, 126);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.ft1{
+   margin-top: 3%;
+   margin-left: 1%;
+   line-height: 2;
+}
+
+.ft2{
+    margin-left: 4%;
+    line-height: 2;
+    margin-top: 3%;
+}
+
+#check{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+@media only  screen and (min-width:320px) and (max-width:480px) {
+
+ header{
+    width: 100%;
+    height: 15vh;
+     }
+
+.name h2{
+    font-size:17px;
+    margin-right: 30%;
+    margin-top: 7%;
+}
+
+.home img{
+    width: 100%;
+    height: 50vh;
+}
+
+.home h2{
+    font-size: 17px;
+    margin-top: 1%;
+}
+
+.menu{
+    display: block;
+    position: relative;
+}
+
+.navlinks{
+    background-color:rgb(192, 229, 245);
+}
+
+.navlinks ul{
+    display: block;
+    width: 40%;
+    height: 27vh;
+    background-color:  #2c3e;
+    text-align: center;
+    margin-left: -100%;
+    transition: 1s;
+    position: absolute;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    margin-top: -0.5%;
+}
+
+.navlinks ul li:hover{
+     background-color: red;
+}
+
+.navlinks ul li{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#check:checked ~ ul{
+    margin-left: 0;
+    position: relative;
+}
+
+
+
+.about-us img{
+    height: 35vh;
+    border-radius: 50%;
+    margin-top: 25%;
+}
+
+.content1{
+     margin-top: 25%;
+     
+}
+
+.content1 p{
+    font-size: 10px;
+}
+
+.gallery img{
+    height: 45vh;
+}
+
+.row1{
+    display: block;
+    margin-left: 21%;
+    
+}
+
+.dep1{
+    width: 70%;
+    height: 49vh;
+    margin-top: 3%;
+}
+
+.dep1 img{
+    height: 30vh;
+}
+
+.bt2{
+    margin-left: 36%;
+    margin-top: 5%;
+}
+
+.row2{
+    display: block;
+    margin-left: 21%;
+    margin-top: 1%;
+}
+
+
+
+.headcourse2 p{
+  margin-left: 2%;
+   width: 100%;
+}
+
+.headcourse2 h3{
+    margin-left: 4%;
+}
+
+.scholar1{
+    height: 12vh;
+}
+
+.scholar1 p{
+    margin-top: 3%;
+}
+
+.dis{
+    display: block;
+}
+
+.reg{
+    width: 60%;
+    height: 60vh;
+    margin-left: 20.5%;
+}
+
+.bt3{
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+.posterimg img{
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+.companylogo img{
+    width: 70%;
+}
+
+.contact{
+    font-size: 100%;
+    margin-left: 15%;
+}  
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background: linear-gradient(black,rgb(34, 27, 27));
+}
+
+.ft1 p{
+    margin-left: 1%;
+}
+
+.ft2 p{
+    margin-left: 1%;
+}
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
